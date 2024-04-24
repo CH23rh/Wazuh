@@ -1,0 +1,14 @@
+How to configure rules in wazuh: 
+rules creation 
+example : use case : password sprying detection 
+number of attempts : 
+
+
+
+to create a custum rule we need to : 
+  create a custum decoder to extract the fields we need and their values.
+  create the corresponding custom rule to generate the alert according to our requirements 
+
+/var/ossec/etc/decoders : to stock custum decoders 
+/var/ossec/etc/rules : to stock custum rules 
+/var/ossec/ruleset : default rules folder : overwritten when we upgrade the wazuh-manager installation
