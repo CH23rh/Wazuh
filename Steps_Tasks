@@ -1,1 +1,17 @@
 Integrate wazuh with other services like : virustotal/ yara / Aleinvault / amazon macie / pagerduty / slack / owlh / fortigate firewall ...
+Test and configure Active response in wazuh :
+search for event per second (EPS)
+see how wazuh monitor integrity of files (FIM : file integrity monitoring) : detecting modification / access rights / ownership /
+check the vulnerability detection part 
+check the part of evaluation of the configuration 
+check the part of compliance 
+
+
+
+active response are : sateful (after a period of time) or stateless (on time action)
+
+RBAC : Rule Based Access Control 
+SSO : single sign in 
+
+
+invistigating the first alert in wazuh 
